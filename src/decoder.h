@@ -106,6 +106,7 @@ public:
     T201,
     T301,
     IBEACON,
+    SBUG,
     SERVICE_DATA,
     BLE_ID_MAX
   };

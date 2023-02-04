@@ -72,6 +72,7 @@
 #include "devices/iBeacon_json.h"
 #include "devices/iNodeEM_json.h"
 #include "devices/BM_V23_json.h"
+#include "devices/SBUG_json.h"
 #include "devices/BPARASITE_json.h"
 #include "devices/BWBSDOO_json.h"
 #include "devices/BM2_json.h"
@@ -123,6 +124,7 @@ const char* _devices[][2] = {
     {_SCD4X_json, _SCD4X_json_props},
     {_SmartDry_json, _SmartDry_json_props},
     {_BM_V23_json, _BM_V23_json_props},
+    {_SBUG_json, _SBUG_json_props},
     {_MS_CDP_json, _MS_CDP_json_props},
     {_GAEN_json, _GAEN_json_props},
     {_HHCCPOT002_json, _HHCCPOT002_json_props},
