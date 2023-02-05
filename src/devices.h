@@ -31,6 +31,7 @@
 #include "devices/H5072_json.h"
 #include "devices/H5074_json.h"
 #include "devices/H5102_json.h"
+#include "devices/H5106_json.h"
 #include "devices/HHCCJCY01HHCC_json.h"
 #include "devices/HHCCPOT002_json.h"
 #include "devices/IBS_TH1_json.h"
@@ -65,14 +66,20 @@
 #include "devices/ABN03_json.h"
 #include "devices/ABTemp_json.h"
 #include "devices/Amphiro_json.h"
-#include "devices/TP35X_json.h"
+#include "devices/TPTH_json.h"
 #include "devices/Mopeka_json.h"
 #include "devices/T201_json.h"
 #include "devices/T301_json.h"
 #include "devices/iBeacon_json.h"
 #include "devices/iNodeEM_json.h"
+<<<<<<< HEAD
 #include "devices/BM_V23_json.h"
 #include "devices/SBUG_json.h"
+=======
+#include "devices/BM1IN1_json.h"
+#include "devices/BM3IN1_json.h"
+#include "devices/BM4IN1_json.h"
+>>>>>>> ad5124314ac97377ad3409d5a5bb857ec015e649
 #include "devices/BPARASITE_json.h"
 #include "devices/BWBSDOO_json.h"
 #include "devices/BM2_json.h"
@@ -108,6 +115,7 @@ const char* _devices[][2] = {
     {_H5072_json, _H5072_json_props},
     {_H5074_json, _H5074_json_props},
     {_H5102_json, _H5102_json_props},
+    {_H5106_json, _H5106_json_props},
     {_MUE4094RT_json, _MUE4094RT_json_props},
     {_Mokobeacon_json, _Mokobeacon_json_props},
     {_MBXPRO_json, _MBXPRO_json_props},
@@ -123,8 +131,14 @@ const char* _devices[][2] = {
     {_SHT4X_json, _SHT4X_json_props},
     {_SCD4X_json, _SCD4X_json_props},
     {_SmartDry_json, _SmartDry_json_props},
+<<<<<<< HEAD
     {_BM_V23_json, _BM_V23_json_props},
     {_SBUG_json, _SBUG_json_props},
+=======
+    {_BM1IN1_json, _BM1IN1_json_props},
+    {_BM3IN1_json, _BM3IN1_json_props},
+    {_BM4IN1_json, _BM4IN1_json_props},
+>>>>>>> ad5124314ac97377ad3409d5a5bb857ec015e649
     {_MS_CDP_json, _MS_CDP_json_props},
     {_GAEN_json, _GAEN_json_props},
     {_HHCCPOT002_json, _HHCCPOT002_json_props},
@@ -135,7 +149,7 @@ const char* _devices[][2] = {
     {_ABN03_json, _ABN03_json_props},
     {_ABTemp_json, _ABTemp_json_props},
     {_AMPHIRO_json, _AMPHIRO_json_props},
-    {_TP35X_json, _TP35X_json_props},
+    {_TPTH_json, _TPTH_json_props},
     {_Mopeka_json, _Mopeka_json_props},
     {_T201_json, _T201_json_props},
     {_T301_json, _T301_json_props},
